@@ -30,7 +30,7 @@ body {
 
 .form,
 .greetings,
-.{
+.todo-section {
   display: none;
   color: white;
   /* width: 80%; */
