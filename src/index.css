@@ -29,7 +29,8 @@ body {
 }
 
 .form,
-.greetings {
+.greetings,
+.{
   display: none;
   color: white;
   /* width: 80%; */
