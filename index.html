@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Monotom</title>
+    <meta charset="utf-8" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!-- <h1 id="title" class="btn">This works!</h1> -->
+    <div class="weather-container">
+      <div class="weather-first-row">
+        <span class="weather-icon">
+          <img
+            class="weather-img"
+            src="http://openweathermap.org/img/wn/01d.png"
+          />
+        </span>
+        <span class="js-weather">weather is loading..</span>
+      </div>
+      <!-- <br /> -->
+      <div class="weather-second-row">
+        <span class="js-loca">location is loading..</span>
+      </div>
+    </div>
+
+    <div class="js-clock">
+      <h1>00:00</h1>
+    </div>
+    <form class="js-form form">
+      <h3>당신의 이름은 무엇인가요?</h3>
+      <input type="text" placeholder="여기에" />
+    </form>
+    <h2 class="js-greetings greetings"></h2>
+    <form class="js-toDoForm">
+      <h3>오늘의 할일을 기록해보세요.</h3>
+      <input type="text" placeholder="" />
+    </form>
+    <div class="todoList">
+      <ul class="js-toDoList">
+        할일 목록
+      </ul>
+    </div>
+
+    <div class="doneList">
+      <ul class="js-doneTodoList">
+        완료된 목록
+      </ul>
+    </div>
+    <!-- <h4 class="js-weather">weather..</h4> -->
+
+    <script src="index.js"></script>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
