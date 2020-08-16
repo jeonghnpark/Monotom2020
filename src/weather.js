@@ -24,7 +24,7 @@ function getWeather(lat, lon) {
 
       weather_img.setAttribute(
         "src",
-        `http://openweathermap.org/img/wn/${icon}.png`
+        `https://openweathermap.org/img/wn/${icon}.png`
       );
 
       //   loca.innerText = `hello`;
