@@ -1,6 +1,7 @@
 const form = document.querySelector(".js-form"),
   input = form.querySelector("input"),
-  greetings = document.querySelector(".js-greetings");
+  greetings = document.querySelector(".js-greetings"),
+      todo_section=document.querySelector(".todo-section");
 
 const USER_LS = "currentUser", //
   SHOWING_CN = "showing";
@@ -10,6 +11,7 @@ function saveName(text) {
 function paintGreeting(text) {
   form.classList.remove(SHOWING_CN);
   greetings.classList.add(SHOWING_CN);
+  todo_section.classList.add(SHOWING_CN);
   //   toDoForm.add(SHOWING_CN);
   const d = new Date();
   const h = d.getHours;
